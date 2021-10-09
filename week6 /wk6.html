@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+ <html lang = "hi">
+ <head>
+   <title>Week 6</title>
+   <link rel="stylesheet" href="wk6style.css">
+<h1 id="change">this will change</h1>
+<button id="hi"class="button button1">Hi</button>
+<button id="ei"class="button button2">Ei</button>
+<button id="ha"class="button button2">Ha</button>
+
+
+
+<script>
+   console.log("hi");
+   document.getElementById("hi").addEventListener("click", hii);
+   document.getElementById("ei").addEventListener("click", eii);
+   document.getElementById("ha").addEventListener("click", haa);
+
+   function hii(){
+     alert("this is kind of confused");
+     document.getElementById("change").innerHTML = "I told you i will change";
+   }
+
+   function eii(){
+     alert("i am not sure about this");
+    document.getElementById("change").style.backgroundColor = "#574B60"
+  }
+
+   function haa(){
+     alert("ahhhh");
+     document.getElementById("change").style.color = "#EAF0CE";
+   }
+ </script>
