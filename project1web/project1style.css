@@ -1,7 +1,7 @@
 
+
 h1{
-  bstyle="
-  font-size:50px; 
+  font-size: 32px; 
    margin-left: 11em;
   margin-right:10em;
   color: #eaf0ce;
@@ -25,11 +25,12 @@ h1{
   margin-right:0em; 
 }
 h2 {
-  style="
-  font-size:25px; 
-  background-color:#C0C5C1;
+  font-size:60px; 
+  background-color:#574b60;
+  border: 10px solid #7D8491;
   font-family:bradley hand;
-  color:#574B60
+  color:#Eaf0ce
+
 }
 h3 {style="font-family:bradley hand;
   color:#574B60 
@@ -45,6 +46,7 @@ h5 {
   font-family:bradley hand;
   color:#574B60
 }
+
 button {
   border: none;
   color: white;
