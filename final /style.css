@@ -1,0 +1,90 @@
+body {background-color: #fdd515;
+
+}
+header {
+  background-color: #000004;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: #00ff07;
+  font-family: 'Finger Paint', cursive;
+
+}
+
+nav {
+  float: left;
+  width: 30%;
+  height: 300px; /* only for demonstration, should be removed */
+  background: #ccc;
+  padding: 20px;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #ff00d5;
+  border: 10px solid #0c06f6;
+   font-family: 'Finger Paint', cursive;
+}
+
+li {
+  float: left;
+   font-family: 'Finger Paint', cursive;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+{
+  box-sizing: border-box;
+}
+
+* {
+  box-sizing: border-box;
+}
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 600px; 
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.active {
+  background-color: #04AA6D;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: #0c06f6;
+  padding: 10px;
+}
+.grid-item {
+  background-color: #000004;
+  border: 5px solid #ffe300;
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+  color: #00ff00;
+}
+h1{
+ font-family: 'Finger Paint', cursive;
+
+}
+h2{font-family: 'Finger Paint', cursive;
+}
